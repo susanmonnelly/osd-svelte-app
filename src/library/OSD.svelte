@@ -2,7 +2,6 @@
   import { onMount } from 'svelte';
   import OpenSeadragon from "openseadragon";
   let viewer = {};
-  export let tocValue = '';
   let dogName = 'Megi'
 
 
@@ -30,7 +29,6 @@ function renderViewer(tileSource) {
   }
 </style>
 
-  <p>tilesource is: {'/openseadragon/' + tocValue + '.dzi'}</p>
 
   <div
     class="osd"
